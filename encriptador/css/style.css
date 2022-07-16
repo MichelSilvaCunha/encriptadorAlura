@@ -258,6 +258,7 @@ footer {
   margin-right: 1vh;
 }
 
+/*----------- Devices -------------*/
 
 @media screen and (max-width: 1080px) {
   header {
