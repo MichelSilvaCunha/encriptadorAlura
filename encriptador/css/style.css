@@ -182,8 +182,6 @@ header .titulo {
   }
 }
 
-
-
 /*-----------main-------------*/
 
 .texto {
@@ -198,7 +196,6 @@ header .titulo {
   margin: 2%;
 }
 
-
 textarea {
   font-size: 16px;
   resize: vertical;
@@ -212,14 +209,6 @@ textarea {
   border-radius: 8px;
 }
 
-/*-----------section-------------*/
-section {
-  display: flex;
-  align-items: ;
-  justify-content: space-around;
-
-}
-
 .mensagem {    
   text-align: center;
   font-family: Titulo;
@@ -227,7 +216,6 @@ section {
   opacity: 30%;
   color: aqua;
 }
-
 
 /*-----------Rodape-------------*/
 
