@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="author" content="MichelCunha">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta nema="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Encriptador Challenger</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/botoes.css">
+</head>
+
+<body>
+  <main>
+    <!--***** Inicio_cabecalho *****-->
+    <header>
+      <div class="titulo">
+        <h1> 3NCR1PT4D0R <span class="primeiro"> CH4LL</span>3NG3R </h1>
+      </div>
+    </header>
+    <!--***** final_cabecalho *****-->
+    <!--***** Inicio texto e botoes *****-->
+    <container class="textosEBotoes">
+      <div class="textoInOut">
+        <div class="textoEBotoesIn">
+          <textarea type="text" class="texto" wrap="on" autocomplete="on" id="textoEntrada" autofocus="true" required
+            placeholder="Insira seu texto aqui!"></textarea>
+          <div class="mensagem">
+            <label>Apenas letras minúsculas!</label>
+          </div>
+          <div>
+            <a class="botoes" id="criptografarTexto" href="#">
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              <h2><span class="segundo">Crip</span>tografar</h2>
+            </a>
+            <a class="botoes" id="descriptografarTexto" href="#">
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              <h2>Descrip<span class="segundo">tog</span>rafar</h2>
+            </a>
+            <a class="botoes" id="limparTexto" href="#">
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              <h2>Limp<span class="segundo">ar</span></h2>
+            </a>
+          </div>
+        </div>
+        <div class="textoEBotoesOut">
+          <textarea type="text" class="texto" id="textoFinal" required placeholder="Seu texto surge aqui!"
+            readonly></textarea>
+          <div>
+            <a class="botoes" id="copiarTexto" href="#">
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              <h2>Co<span class="segundo">pi</span>ar</h2>
+            </a>
+            <a class="botoes" id="limparTexto2" href="#">
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              <h2>Limp<span class="segundo">ar</span></h2>
+            </a>
+          </div>
+        </div>
+      </div>
+    </container>
+    <!--***** Final texto e botoes *****-->
+  </main>
+  <!--***** Inicio rodapé *****-->
+  <footer>
+    <div class="main-content">
+      <div class="left box">
+        <h3>Apoio</h3>
+        <div class="apoio">
+          <div class="entreApoioESobre">
+            <a href="https://www.oracle.com/br/education/oracle-next-education/" target="_blank">
+              <img src="img/ONE.png" alt="ONE Next Education">
+            </a>
+          </div>
+          <div class="entreApoioESobre">
+            <a href="https://www.alura.com.br/oracle-next-education" target="_blank">
+              <img src="img/alura.png" alt="Alura">
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="center box">
+        <h3>Tecnologias utilizadas</h3>
+        <div class="tec">
+          <img src="img/html.png" alt="HTML">
+          <img src="img/css.png" alt="CSS">
+          <img src="img/js.png" alt="JavaScript">
+        </div>
+      </div>
+      <div class="right box">
+        <h3>Sobre</h3>
+        <div class="sobre">
+          <div class="entreApoioESobre">
+            <a href="https://github.com/MichelSilvaCunha" target="" _blank>
+              <img src="img/github.png" alt="GitHub">
+            </a>
+          </div>
+          <div class="entreApoioESobre">
+            <a href="https://www.linkedin.com/in/michel-cunha-654b981a5/" target="" _blank>
+              <img src="img/linkedin.png" alt="Linkedin">
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!--***** Final rodapé *****-->
+  <script src="js/encriptador.js"></script>
+</body>
+
+</html>

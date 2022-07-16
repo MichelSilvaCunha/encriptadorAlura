@@ -1,0 +1,305 @@
+/*html {
+  box-sizing: border-box;   
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}*/
+
+body {
+  background-color: rgb(23, 23, 23);
+}
+
+/*-----------Cabeçalho-------------*/
+
+header .titulo {
+  display: inline;  
+  width: 100%;
+  height: 1vh;
+}
+
+@font-face {
+  font-family: Titulo;
+  src: url(../font/benguiat-bold-bt.ttf)
+}
+
+.titulo {
+  font-family: Titulo;
+  font-size: 2.9em;
+  text-align: center;
+  padding: 1vh;
+}
+
+
+.titulo h1 {
+  animation: text-flicker 2s linear forwards;
+}
+
+.titulo .primeiro {
+  animation: letter-flicker 3s linear infinite;
+}
+
+@keyframes text-flicker {
+  2% {
+    color: rgb(0, 225, 255);
+    text-shadow: 0 0 15px rgb(0, 225, 255);
+  }
+
+  3% {
+    color: rgba(0, 46, 120, 0.531);
+    text-shadow: none;
+  }
+
+  6% {
+    color: rgb(0, 225, 255);
+    text-shadow: 0 0 15px rgb(0, 225, 255);
+  }
+
+  9% {
+    color: rgba(0, 46, 120, 0.531);
+    text-shadow: none;
+  }
+
+  11% {
+    color: rgb(0, 225, 255);
+    text-shadow: 0 0 15px rgb(0, 225, 255);
+  }
+
+  14% {
+    color: rgba(0, 46, 120, 0.531);
+    text-shadow: none;
+  }
+
+  18% {
+    color: rgb(0, 225, 255);
+    text-shadow: 0 0 15px rgb(0, 225, 255);
+  }
+
+  32% {
+    color: rgb(0, 225, 255);
+    text-shadow: 0 0 15px rgb(0, 225, 255);
+  }
+
+  33% {
+    color: rgba(0, 46, 120, 0.531);
+    text-shadow: none;
+  }
+
+  37% {
+    color: rgb(0, 225, 255);
+    text-shadow: 0 0 15px rgb(0, 225, 255);
+  }
+
+  39% {
+    color: rgba(0, 46, 120, 0.531);
+    text-shadow: none;
+  }
+
+  43% {
+    color: rgb(0, 225, 255);
+    text-shadow: 0 0 15px rgb(0, 225, 255);
+  }
+
+  46% {
+    color: rgba(0, 46, 120, 0.531);
+    text-shadow: none;
+  }
+
+  47% {
+    color: rgb(0, 225, 255);
+    text-shadow: 0 0 15px rgb(0, 225, 255);
+  }
+
+  100% {
+    color: rgb(0, 225, 255);
+    text-shadow: 0 0 15px rgb(0, 225, 255);
+  }
+}
+
+@keyframes letter-flicker {
+  2% {
+    color: rgb(0, 225, 255);
+    text-shadow: 0 0 15px rgb(0, 225, 255);
+  }
+
+  3% {
+    color: rgba(0, 46, 120, 0.531);
+    text-shadow: none;
+  }
+
+  6% {
+    color: rgb(0, 225, 255);
+    text-shadow: 0 0 15px rgb(0, 225, 255);
+  }
+
+  9% {
+    color: rgba(0, 46, 120, 0.531);
+    text-shadow: none;
+  }
+
+  11% {
+    color: rgb(0, 225, 255);
+    text-shadow: 0 0 15px rgb(0, 225, 255);
+  }
+
+  14% {
+    color: rgba(0, 46, 120, 0.531);
+    text-shadow: none;
+  }
+
+  18% {
+    color: rgb(0, 225, 255);
+    text-shadow: 0 0 15px rgb(0, 225, 255);
+  }
+
+  32% {
+    color: rgb(0, 225, 255);
+    text-shadow: 0 0 15px rgb(0, 225, 255);
+  }
+
+  33% {
+    color: rgba(0, 46, 120, 0.531);
+    text-shadow: none;
+  }
+
+  37% {
+    color: rgb(0, 225, 255);
+    text-shadow: 0 0 15px rgb(0, 225, 255);
+  }
+
+  39% {
+    color: rgba(0, 46, 120, 0.531);
+    text-shadow: none;
+  }
+
+  40% {
+    color: rgb(0, 225, 255);
+    text-shadow: 0 0 15px rgb(0, 225, 255);
+  }
+
+  100% {
+    color: rgb(0, 225, 255);
+    text-shadow: 0 0 15px rgb(0, 225, 255);
+  }
+}
+
+
+
+/*-----------main-------------*/
+
+.texto {
+  width: 30em;
+  height: 30em;
+}
+
+.textosEBotoes .textoInOut {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 2%;
+}
+
+
+textarea {
+  font-size: 16px;
+  resize: vertical;
+  color: white;
+  outline: none;
+  background-image: url("../img/background-saida.png");
+  opacity: 45%;
+  background-color: transparent;
+  background-size: cover;
+  background-position: center;
+  border-radius: 8px;
+}
+
+/*-----------section-------------*/
+section {
+  display: flex;
+  align-items: ;
+  justify-content: space-around;
+
+}
+
+.mensagem {    
+  text-align: center;
+  font-family: Titulo;
+  font-size: 14px;
+  opacity: 30%;
+  color: aqua;
+}
+
+
+/*-----------Rodape-------------*/
+
+footer {
+  position: fixed;
+  width: 100%;
+  bottom: 0px;  
+  background: rgb(18, 18, 18);
+}
+
+.main-content {
+  display: flex;
+  justify-content: space-around;
+}
+
+.main-content .box {
+  padding: 1vh 1vh;
+}
+
+.box h3 {
+  padding-bottom: 1vh;
+  text-align: center;
+  font-family: Titulo;
+  color: rgb(0, 225, 255);
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.apoio {
+  display: flex;
+  justify-content: space-around;
+}
+
+.tec {
+  display: flex;
+  justify-content: space-around;
+}
+
+.sobre {
+  display: flex;
+  justify-content: space-around;
+}
+
+.entreApoioESobre {
+  margin-left: 1vh;
+  margin-right: 1vh;
+}
+
+
+@media screen and (max-width: 1080px) {
+  header {
+    position: relative;
+    top: 5px;
+  }
+
+  .textosEBotoes .textoInOut {
+    flex-wrap: wrap;
+    flex-direction: column;
+
+  }
+
+  footer {    
+    bottom: 0px;
+  }
+
+  .main-content {
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+
+  .main-content .box {
+    margin: 10px 0;
+  }
+}
