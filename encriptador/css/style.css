@@ -272,7 +272,8 @@ footer {
 
   }
 
-  footer {    
+  footer { 
+    position: fixed;
     bottom: 0px;
   }
 
